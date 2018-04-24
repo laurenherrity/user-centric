@@ -80,25 +80,21 @@ p {
 }
 /*----------------------------------------------------------------- PHOTOS */
 
-.pgallery {
-   margin-left: 220px;
-  
-   float: left;
-   width: 180px;
-   }
+table, th, td {
+     border: 12px solid white;
+     text-align: center;
    
- .pgallery img {
-     width: 100%;
-     height: auto;
- }
+}
 
-.description {
-   font-family: Fjalla One, sans-serif;
-   font-size: 13px;
-   padding-left: 25px;
-   padding-top: 5px;
-   text-align: center;
- }
+th {
+    padding-top: 100px;
+}
+
+table {
+    
+    display: flex;
+    
+}
 
 /*------------------------------------------------------------------ FOOTER */
 
@@ -148,4 +144,29 @@ p {
         -o-background-size: cover;
         overflow: hidden;
     }
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+
+    th {
+        border: none;
+		position: relative;
+		padding-left: 0%; 
+		padding-bottom: 15px;
+		padding-top: 0px;
+    }
+	
+	td { 
+	
+		border: none;
+		position: relative;
+		padding-left: 0%; 
+		padding-bottom: 15px;
+	}
 }
