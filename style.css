@@ -83,18 +83,27 @@ p {
 table, th, td {
      border: 12px solid white;
      text-align: center;
-   
-}
+     }
 
 th {
     padding-top: 100px;
-}
+    }
 
 table {
-    
     display: flex;
-    
 }
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+}
+
 
 /*------------------------------------------------------------------ FOOTER */
 
