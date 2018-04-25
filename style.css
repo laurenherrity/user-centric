@@ -104,6 +104,19 @@ table {
     opacity: 0.3;
 }
 
+tr h2 {
+    font-family: Fjalla One, sans-serif;
+    font-size: 25px;
+    text-align: left !important;
+    color: black;
+}
+
+td h3 {
+    font-family: Fjalla One, sans-serif;
+    font-size: 25px; 
+    text-align: left !important;
+    color: black;
+}
 
 /*------------------------------------------------------------------ FOOTER */
 
