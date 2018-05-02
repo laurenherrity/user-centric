@@ -24,4 +24,6 @@ To create my video page, I used HTML5 code. I wanted my video to be placed in th
 of my web page, however in the future I would possible advised against as it can look and
 fit weird depending on the size of the screen.
 
-
+A main issue I found was during the creation my audio page, I used the new HTML5 audio
+code and found it was incredibly difficult to make the page eye catching due to the
+lack of styling that can be done to the code. 
