@@ -37,20 +37,23 @@
             </div>
         </div>
     </nav>
-        <section class="container-fluid ">
+        <event class="container-fluid booking-container">
+            <h1></h1>
             <h2 class="text-center">AN UPCOMING EVENT?</h2>
-            <h3 class="text-center">Request below!</h3>
+            <h3 class="text-center">Enquire below!</h3>
                 <div class="center-form"
                 <form>
                     <fieldset>
                         <legend>Personal Information:</legend>
                         <input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
                         <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required/>
+                        <input type="number" name="dcontactnumber" class="form-control" id="dcontactnumber" placeholder="Daytime Contact Number"/>
+                        <input type="number" name="econtactnumber" class="form-control" id="econtactnumber" placeholder="Evening Contact Number"/>
                     </fieldset>
                     
                     <fieldset>
                         <legend>Event Information:</legend>
-                        <h5>Event Type</h5>                   
+                        <h5><span id="para">Event Type</span></h5>                   
                         <input type="radio" name="event" value="wedding" checked/> Wedding<br>
                         <input type="radio" name="event" value="christmas"/> Christmas Party<br>
                         <input type="radio" name="event" value="birthday"/> Birthday Party<br>
@@ -59,12 +62,12 @@
                         
                     </fieldset>
                 </form>
-        </section>
+        </event>
        
     <footer class="container-fluid footer-container">
         <div class="row">
              <div class="col-12">
-                 <p class="text-center">© The Monkeees 2018</p>
+                 <p class="text-center">© The Monkees 2018</p>
                  </div>
             <div class="col-12">
                 <ul class="list-inline social text-center">
