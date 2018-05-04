@@ -27,3 +27,7 @@ fit weird depending on the size of the screen.
 A main issue I found was during the creation my audio page, I used the new HTML5 audio
 code and found it was incredibly difficult to make the page eye catching due to the
 lack of styling that can be done to the code. 
+
+Finally, my events page uses bootstrap. I used bootstrap as I found it was the easiest way,
+and it also meant I could apply my CSS code to it easier. I would like to make it more eye
+catching in the future.
